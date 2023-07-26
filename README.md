@@ -2,6 +2,12 @@
 
 This Python script fetches the latest articles from specified arXiv.org RSS feeds and posts them to a Slack channel. The articles are filtered based on a set of user-provided keywords.
 
+## Requirements:
+Run the following line in your environement
+```
+pip install argparse feedparser requests jsonlib
+```
+
 ## Getting RSS Feeds from arXiv.org
 
 1. Go to [arXiv.org](http://arxiv.org/).
