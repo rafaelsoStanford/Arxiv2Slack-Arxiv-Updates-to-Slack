@@ -1,6 +1,6 @@
 # arXiv-to-Slack Bot
 
-This Python script fetches the latest articles from specified arXiv.org RSS feeds and posts them to a Slack channel. The articles are filtered based on a set of user-provided keywords.
+This Python script fetches the latest articles from specified arXiv.org RSS feeds and posts them to a Slack channel. The articles are filtered based on a set of user-provided keywords and specified RSS feeds. 
 
 ## Requirements:
 Run the following line in your environement
