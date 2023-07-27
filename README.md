@@ -1,11 +1,11 @@
 # arXiv-to-Slack Bot
 
-This Python script fetches the latest articles from specified arXiv.org RSS feeds and posts them to a Slack channel. The articles are filtered based on a set of user-provided keywords and specified RSS feeds. 
+This Python script fetches the latest articles from specified arXiv.org RSS feeds and posts them to a Slack channel. The articles are filtered based on a set of user-provided keywords and specified RSS feeds.
 
 ![Final output](https://github.com/rafaelsoStanford/ArxivToSlackBot/blob/main/Screenshot%20from%202023-07-26%2017-22-34.png)
 
 ## Requirements:
-Run the following line in your environment
+Run the following line in the your python environment of choice
 ```
 pip install argparse feedparser requests jsonlib
 ```
@@ -36,7 +36,7 @@ slack_webhook_url = 'YourWebhookURL'
 2. Run the script as follows:
 
 ```bash
-python script.py -k keyword1 keyword2 -u http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI
+python script.py -k 'keyword1' 'keyword2' -u http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI
 ```
 
 Replace keyword1 keyword2 with your space-separated keywords, and replace http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI with your space-separated RSS feed URLs.
@@ -64,7 +64,12 @@ The RSS feeds are sorted by different categories and subjects. Some endings are 
   5. Electrical Engineering and Systems Science: /eess
 
 ### Browse context
-Further subcategories can be accessed by combining the endings with a . and the subcategory: i.e. cs.AI (Artificial Inteligence) or cs.RO (Robotics). Check the papers you are reading on Arxiv on the current context and add the links to the arguments being passed to the script. 
+Further subcategories can be accessed by combining the endings with a . and the subcategory: i.e. cs.AI (Artificial Inteligence) or cs.RO (Robotics). Check the papers you are reading on Arxiv on the current context and add the links to the arguments being passed to the script. Some endings:
+1. cs.AI (Artificial Intelligence)
+2. cs.RO (Robotics)
+3. cs.ML (Machine Learning)
+4. cs.LG (Learning)
+...
 
 ### Troubleshooting
 If you happen to see your search returning empty-handed, check the link to the RSS feed. The list might have been reset for the day and is currently empty, or your keyword is simply not available / listed.
