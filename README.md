@@ -5,7 +5,7 @@ This Python script fetches the latest articles from specified arXiv.org RSS feed
 
 
 ## Requirements:
-Run the following line in your environement
+Run the following line in your environment
 ```
 pip install argparse feedparser requests jsonlib
 ```
@@ -66,4 +66,4 @@ The RSS feeds are sorted by different categories and subjects. Some endings are 
 ### Browse context
 Further subcategories can be accessed by combining the endings with a . and the subcategory: i.e. cs.AI (Artificial Inteligence) or cs.RO (Robotics). Check the papers you are reading on Arxiv on the current context and add the links to the arguments being passed to the script. 
 
-*This code was meant for personal use. I had some fun setting it up and its what it is. There might have been a better or cleaner way of doing this, possibly not involving a seperate script or a slack app.* 
+*This code was meant for personal use. I had some fun setting it up and it is what it is. There might have been a better or cleaner way of doing this, possibly not involving a seperate script or a slack app.* 
