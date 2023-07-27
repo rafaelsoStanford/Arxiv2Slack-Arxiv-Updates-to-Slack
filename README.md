@@ -66,5 +66,10 @@ The RSS feeds are sorted by different categories and subjects. Some endings are 
 ### Browse context
 Further subcategories can be accessed by combining the endings with a . and the subcategory: i.e. cs.AI (Artificial Inteligence) or cs.RO (Robotics). Check the papers you are reading on Arxiv on the current context and add the links to the arguments being passed to the script. 
 
+### Troubleshooting
+If you happen to see your search returning empty-handed, check the link to the RSS feed. The list might have been reset for the day and is currently empty, or your keyword is simply not available / listed.
+
+--------------------------------------------------------------------------------------
+
 *This code was meant for personal use. I had some fun setting it up and it is what it is. There might have been a better or cleaner way of doing this, possibly not involving a seperate script or a slack app.
 Also much thanks to ChatGPT for rewriting most of my code and providing most of this Readme file* 
