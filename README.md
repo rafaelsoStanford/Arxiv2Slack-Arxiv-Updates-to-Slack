@@ -2,7 +2,7 @@
 
 This Python script fetches the latest articles from specified arXiv.org RSS feeds and posts them to a Slack channel. The articles are filtered based on a set of user-provided keywords and specified RSS feeds. 
 
-
+![Final output](https://github.com/rafaelsoStanford/ArxivToSlackBot/blob/main/Screenshot%20from%202023-07-26%2017-22-34.png)
 
 ## Requirements:
 Run the following line in your environment
