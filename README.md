@@ -69,8 +69,8 @@ Further subcategories can be accessed by combining the endings with a . and the 
 2. cs.RO (Robotics)
 3. cs.ML (Machine Learning)
 4. cs.LG (Learning)
-...
 
+...
 ### Troubleshooting
 If you happen to see your search returning empty-handed, check the link to the RSS feed. The list might have been reset for the day and is currently empty, or your keyword is simply not available / listed.
 
