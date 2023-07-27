@@ -35,7 +35,7 @@ slack_webhook_url = 'YourWebhookURL'
 1. Open a terminal.
 2. Run the script as follows:
 
-```bash
+```
 python script.py -k 'keyword1' 'keyword2' -u http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI
 ```
 
@@ -50,8 +50,8 @@ You can use cron to schedule tasks:
 1. Open a terminal.
 2. Run crontab -e to edit the cron table.
 3. Add a line like this:
-```bash
-0 8 * * * /usr/bin/python /path/to/script.py -k ''keyword1'' ''keyword2'' -u http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI
+```
+0 8 * * * /usr/bin/python /path/to/script.py -k 'keyword1' 'keyword2' -u http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI
 ```
 Replace /usr/bin/python with the path to your Python interpreter, and replace /path/to/script.py with the path to the script. This line will run the script every day at 8 AM.
 
