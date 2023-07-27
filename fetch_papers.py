@@ -6,7 +6,7 @@ from datetime import datetime
 import hashlib
 
 # Set Slack webhook URL
-slack_webhook_url = 'https://hooks.slack.com/services/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'
+slack_webhook_url = 'https://hooks.slack.com/...YOUR...HOOK...'
 
 # Create a set to store the hash values of all the titles posted before
 posted_titles_hash = set()
