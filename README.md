@@ -54,7 +54,7 @@ You can use cron to schedule tasks:
 ```
 0 8 * * * /usr/bin/python /path/to/script.py -k 'keyword1' 'keyword2' -u http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI
 ```
-Replace /usr/bin/python with the path to your Python interpreter (to find your current conda env, you can use 'which python') , and replace /path/to/script.py with the path to the script. This line will run the script every day at 8 AM.
+Replace /usr/bin/python with the path to your Python interpreter (to find your current conda env, use the command 'which python' in your terminal ) , and replace /path/to/script.py with the path to the script. This line will run the script every day at 8 AM.
 
 ## RSS Endings in Arxiv
 The RSS feeds are sorted by different categories and subjects. Some endings are listed here:
