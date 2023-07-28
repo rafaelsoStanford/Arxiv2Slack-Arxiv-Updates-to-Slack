@@ -5,9 +5,9 @@ This Python script fetches the latest articles from specified arXiv.org RSS feed
 ![Final output](https://github.com/rafaelsoStanford/ArxivToSlackBot/blob/main/Screenshot%20from%202023-07-26%2017-22-34.png)
 
 ## Requirements:
-Run the following line in the your python environment of choice
+Run the following line in the your python environment of choice (I used Python 3.9.0)
 ```
-pip install argparse feedparser requests jsonlib
+pip install argparse feedparser requests
 ```
 
 ## Getting RSS Feeds from arXiv.org
