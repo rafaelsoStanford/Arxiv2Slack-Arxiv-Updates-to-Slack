@@ -1,4 +1,4 @@
-# arXiv-to-Slack Bot
+# ArXiv2Slack Bot
 
 Arxiv2Slack keeps you informed about the latest academic research. It fetches from chosen Arxiv RSS links, filters based on keywords, and sends updates straight to your Slack. 
 The articles are filtered based on a set of user-provided keywords and specified RSS feeds.
