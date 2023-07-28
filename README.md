@@ -1,6 +1,7 @@
 # arXiv-to-Slack Bot
 
-This Python script fetches the latest articles from specified arXiv.org RSS feeds and posts them to a Slack channel. The articles are filtered based on a set of user-provided keywords and specified RSS feeds.
+Arxiv2Slack keeps you informed about the latest academic research. It fetches from chosen Arxiv RSS links, filters based on keywords, and sends updates straight to your Slack. 
+The articles are filtered based on a set of user-provided keywords and specified RSS feeds.
 
 ![Final output](https://github.com/rafaelsoStanford/ArxivToSlackBot/blob/main/Screenshot%20from%202023-07-26%2017-22-34.png)
 
@@ -53,7 +54,7 @@ You can use cron to schedule tasks:
 ```
 0 8 * * * /usr/bin/python /path/to/script.py -k 'keyword1' 'keyword2' -u http://arxiv.org/rss/cs http://arxiv.org/rss/cs.AI
 ```
-Replace /usr/bin/python with the path to your Python interpreter, and replace /path/to/script.py with the path to the script. This line will run the script every day at 8 AM.
+Replace /usr/bin/python with the path to your Python interpreter (to find your current conda env, you can use 'which python') , and replace /path/to/script.py with the path to the script. This line will run the script every day at 8 AM.
 
 ## RSS Endings in Arxiv
 The RSS feeds are sorted by different categories and subjects. Some endings are listed here:
